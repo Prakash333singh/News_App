@@ -1,4 +1,5 @@
-const API_KEY = "pub_5549886736dfda8ae5285cf2ae6a772b8fe3f";
+// const API_KEY = "pub_5549886736dfda8ae5285cf2ae6a772b8fe3f";
+const API_KEY = "f153672c93fe4d9387459be726b9ec3b";
 const url = `https://newsdata.io/api/1/latest?apikey=${API_KEY}&q=`;
 
 window.addEventListener("load", () => fetchNews("pizza"));
